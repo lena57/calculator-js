@@ -1,0 +1,45 @@
+body {
+  background-color: linen;
+}
+.container {
+  max-width: 400px;
+  margin: 10vh auto;
+  box-shadow: 0px 0px 43px 18px rgba(153, 153, 153, 1);
+  background-color: rosybrown;
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  background-color: whitesmoke;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+}
+
+.buttons > div {
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+}
+
+.button {
+  border: 0.5px solid sienna;
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: lightcoral;
+  color: wheat;
+  transition: 0.5s ease-in-out;
+}
